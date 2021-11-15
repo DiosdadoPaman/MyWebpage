@@ -220,7 +220,7 @@ color: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-   background-image: url("../backg_sect/about.jpg");
+   background-image: url("about.jpg");
 }
 
 .about .container{
@@ -344,7 +344,7 @@ margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("../backg_sect/portfolio.jpg");
+  background-image: url("portfolio.jpg");
 }
 
 .heading{
@@ -402,7 +402,7 @@ img{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-   background-image: url("../backg_sect/skill.png");
+   background-image: url("skill.png");
 }
 
 .section-titles{
@@ -575,7 +575,7 @@ border-radius: 2px;
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-image: url("../backg_sect/contact.png");
+  background-image: url("contact.png");
   overflow: hidden;
   align-items: center;
   justify-content: center;
