@@ -1162,9 +1162,12 @@ a{
   height: 100%;
   padding: 10px;
   position: relative;
-  background: rgb(10,3,252);
-background: linear-gradient(90deg, rgba(10,3,252,1) 20%, rgba(73,252,6,1) 50%, rgba(0,255,251,1) 80%);
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+   background-image: url("wback.jpg");
+  
 }
 .wclouds{
   position: relative;
@@ -1232,11 +1235,11 @@ padding-top: 5rem;
 }
 
 .wcloud-def{
-  font-size: 25px;
+  font-size: 23px;
   position: relative;
   text-align: center;
   text-align: justify;
-  font-family: 'Ubuntu', sans-serif;
+  font-family:garamond,serif;
   background: linear-gradient(
     to right, 
     hsl(135 100% 70%),
