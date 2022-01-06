@@ -1166,8 +1166,7 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-   background-image: url("wback.jpg");
-  
+   background-image: url("wback.jpg"); 
 }
 .wclouds{
   position: relative;
@@ -1254,6 +1253,80 @@ padding-top: 1.5rem;
 .Wcloud-img{
   width: 65rem;
   height: 60rem ;
+}
+
+
+
+
+/*Huawie Certificate*/
+.huawiebackg{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-image: url("hback.jpg"); 
+}
+
+.hcertifcate1{
+  font-size: 60px;
+  position: relative;
+  text-align: left;
+  left: 100px;;
+  font-family: 'Ubuntu', sans-serif;
+  background: linear-gradient(
+    to right, 
+    hsl(78 96% 50%),
+    hsl(171 95% 60%),
+    rgb(0, 255, 255)
+
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+padding-bottom: 40px;
 
 }
+
+.huawei{
+  font-size: 60px;
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+  background: linear-gradient(
+    to right, 
+    hsl(78 96% 50%),
+    hsl(171 95% 60%),
+    rgb(0, 255, 255)
+    
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+padding-bottom: 40px;
+}
+
+.hcert-title{
+  font-size: 50px;
+  position: relative;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  background: linear-gradient(
+    to right, 
+    hsl(78 96% 50%),
+    hsl(171 95% 60%),
+    rgb(0, 255, 255)
+    
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 40px;
+  padding-top: 5rem;
+}
+
+.hcert-img{
+  width: 40rem;
+  height: 40rem ;
+}
+
+
 
