@@ -81,10 +81,10 @@ function(event, progress, stepValue){
   $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
 });
 $(".js .bar").circleProgress({
-  value: 0.80
+  value: 0.70
 });
 $(".react .bar").circleProgress({
-  value: 0.40
+  value: 0.10
 });
 
   
