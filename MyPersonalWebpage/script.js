@@ -1,3 +1,4 @@
+// Typing Text Heading
 var typed = new Typed('.type', {
     strings: ['Programmer', 'Designer','Developer','Creator'],
     typeSpeed:140,
@@ -5,7 +6,7 @@ var typed = new Typed('.type', {
     loop:true,
   });
   
-  
+//Navigation Bar 
   $(document).ready(function(){
       $(window).scroll(function(){
           if(this.scrollY > 20){
@@ -70,6 +71,9 @@ window.onload = ()=>{ //after window loaded
     filterImg[i].setAttribute("onclick", "preview(this)"); //adding onclick attribute in all available images
   }
 }
+
+// Skill Section
+
 let options = {
   startAngle: -1.55,
   size: 150,
